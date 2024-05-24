@@ -37,6 +37,6 @@ Una vez creamos los playbook para montar el docker ejecutaremos el siguiente com
 
 -Vemos que se ejecuta correctamente
 
-![ansible](ansible_images/imagen7.png)
+![ansible](imagenes/imagen7.png)
 
 
