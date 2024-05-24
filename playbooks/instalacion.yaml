@@ -1,0 +1,15 @@
+# Vamos a instalar nano y python
+- name: Instalar nano y python 3.7
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Instalar nano
+      apt:
+        name: nano
+        state: present
+
+    - name: Instalar Python
+      apt:
+        name: python3
+        state: present
+
